@@ -3,3 +3,7 @@ Makefile/
 *.aux
 *.log
 *.gz
+praesentation/*.pdf
+praesentation/*.out
+praesentation/*.toc
+praesentation/*.nav
