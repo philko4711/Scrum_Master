@@ -1,0 +1,116 @@
+Zeitplan: 
+	Begin: 	20.06.2013
+	
+
+	Abgabe: 	08.07.2013
+
+Teilnehmer: 
+	Product Owner: 	May (?) 
+	Scrum Master: 		Koch
+	Arbeiter: 			Merkl			GUI 
+	Arbeiter:			Pfitzner		Datenstruktur / Datenbank
+
+
+Budget: 
+
+Ideen: 
+	App
+		- Android (2.3 abwärtskompatibel)
+			-> Programmiersprache: 	Java
+		- Mehrsprachig
+			- Englisch
+			- Deutsch
+		- Ziel: 	Studenten sollen alle notwendigen Informationen fürs Studium bekommen
+			- Checkliste 
+				- Visa
+				- Amtsgänge
+				- Einschreibung
+			- Kommunikation				
+				- Schnittstelle zur TH-Email	
+				- Kalender
+				- Newsletter
+					- Language Center
+					- International Office
+				- Forum		
+				- Wörterbuch mit Sprachausgabe
+			- Navigation
+				- Lageplan TH
+				- Öffnungszeiten Büros
+			- Studentenwohnheime
+			- Partytipps
+				- Rating
+				- Verknüpfung zu Kalender
+			- Optionsmenü
+			- BariereFREI
+		- Datenbankanbindung SQL
+			- Client server Schnittstelle
+		- Aussehen
+			- Start-up Screen
+			- Pop up bei Benachrichtigungen aus Kalender
+			- Hochkant Layout
+			- Zentrale Menü
+			- Farbmuster -> Farben der Hochschule
+			- Formmuster
+		- Local: Nürnberg und Umgebung
+		- Bezug über Google Play Store
+			-> Richtlinien beachten
+		- 
+
+Sachen die ich euch Antun kann: 
+	- Kundentests
+	- Hochschule ändert Namen
+	- weitere Hochschule möchte das Projekt auch benutzen
+
+Präsentation: 
+	- Template -> Labor (ME)
+	- Repository
+	- Zeitplan
+	- Ordner
+		- Grafiken
+		- (Quellen)
+
+Datenbankanbindung: (ME)
+	- Zyklisches Datenupdate bei WLAN Verbindung
+	- UML Diagramme
+	- Use Case
+
+ToDo: 
+	Anbindung: 
+		Zeichnun
+		UML Diagramm
+		Use Case
+
+Meilensteine: 
+	Softwarestruktur: 
+
+	Prototypische Umsetzung: 
+
+	Software: 
+		- Datenbankanbindung
+			- Ohm Datenbankanbindgung
+				- Hochschullageplan
+				- Email Server
+					- Addressbuch
+				- Kalender Server
+			- Lokales
+				- Ämter, Adressen
+			- Wörterbuch
+		- Navigation
+			- Google Maps (GPS)
+	
+	GUI Test: 
+
+	Test Virtuelle Maschine: 
+
+	Hardwaretest
+		- Verschiedene Handy Modelle
+
+	Release Plan
+	
+	Update Zyklus
+
+
+Anforderungen Kunden -> Scrum Master -> Team
+Team -> Umsetzbarkeit / Aufwand / Zeit-Geld -> Prio Liste -> Scrum Master
+Scrum Master -> Abklären mit Kunden -> Entscheidung für Lastenheft
+Lasterheft -> Pflichtenheft -> Kunde 
