@@ -1,0 +1,10 @@
+Arbeitspaket 1 --> Mittwoch 3.7
+- Struktur Backend
+	- CMS (hybrid)
+	- Benutzerrollen
+		- Administrator --> Zugriff auf Design und Inhalt
+		- Redakteuer	 --> Zugriff auf Inhalt 
+	- Datenhaltung
+- Struktur Frontend
+- Schnittstellen definieren
+- Präsentation vorlage 			--> check
