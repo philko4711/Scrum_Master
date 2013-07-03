@@ -1,0 +1,15 @@
+Buttons
+	zu Kartenwidget -> MapServices
+	zu Email & Kalender -> Communication
+	zu Checkliste
+	zu Optionsmenu
+	
+Profil auf der rechten Seite ? 
+	Bild (den Rest ausfüllend)
+	Name, Vorname
+	Geburtsdatum
+Design
+	Farben der TH
+	Logo der TH in der Kopfzeile (ähnlich der TH-hp)
+	Buttons linke Spalte untereinander
+	Profil auf der rechten Seite (großes Foto)	
