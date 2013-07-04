@@ -70,17 +70,39 @@
 %%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Sprint 1}
 \frame{
-\frametitle{GUI: Programmstruktur}
+\frametitle{GUI: Programmaufbau}
 	\begin{block}{Anforderungen}
 		\begin{itemize}
 			\item Basisklasse GUI enthält mögliche Designelemente für einzelne Abschnitte der APP
 			\item Seiten erben von Basisklasse und implementieren eigene Funktionalität
 		\end{itemize}
 	\end{block}
+}
+
+\frame{
+\frametitle{Gui: Klassendiagramm}
 	\begin{center}
-			\includegraphics[width=0.5\textwidth]{../grafiken/GUI_CD.pdf}
+			\includegraphics[width=0.9\textwidth]{../grafiken/GUI_Class.pdf}
 	\end{center}
 }
+
+
+\frame{
+\frametitle{Menüwechsel}
+	\begin{block}{Zustandsmaschine}
+		\begin{itemize}
+			\item Menüpunkte werden als Zustand gesehen
+			\item zusätzliche Zustände für Start und Beenden der Application
+			\item Zustände können wiederum Unter-Zustände besitzen
+		\end{itemize}
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{../grafiken/MenueStates.pdf}
+		\end{center}
+	\end{block}
+}
+
+
+
 
 %%##################################################
 \section{Sprint 2}
@@ -124,95 +146,32 @@
 	\end{block}
 }
 
+\subsection*{Navigation}
+\frame{
+\frametitle{Navigation: Struktur}
+	\includegraphics[width=0.9\textwidth]{../grafiken/NavigationW_Class.pdf}
+}
+
 \frame{
 \frametitle{Interessantes}
 	\begin{block}{Struktur}
 	\begin{itemize}
 		\item Basisklasse für interessante Objekte 
-		\item Hochschulintern aber auch für weitere Tipps
+		\item Addressinformation für schnelles finden von Orten in der Umgebung
+		\item UTM-Koordinaten zur Übergabe an Routenplanner
 	\end{itemize}
-		\includegraphics[width=1.0\textwidth]{../grafiken/PointOfInteresst.pdf}
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{../grafiken/PointOfInteresst.pdf}
+	\end{center}
 	\end{block}
 }
 
 %%##################################################
-\subsection*{Frontend}
-\frame{
-\frametitle{Datenhaltung}
-}
+
 
 \section{Sprint3}
 
 \section{Sprint4}
-
-%%##################################################
-\section{Ablauf}
-\subsection*{Sprint 1}
-\frame{
-\frametitle{Sprint 1 - Hauptmenu}
-	\begin{block}{Extraktion aus Product Backlog}
-		\begin{itemize}
-		\item Design des Hauptmenu
-		\item Design des Startbildes
-		\item Implementierung der Grundfunktionalität (Dummy-Funktionen)
-		\end{itemize}
-	\end{block}	
-
-}
-
-%%##################################################
-
-\subsection*{Sprint 2}
-\frame{
-\frametitle{Sprint 2 - Kartenwidgets}
-	\begin{block}{Extraktion aus Product Backlog}
-		\begin{itemize}
-		\item Lageplan der TH integrieren
-		\item Google-maps plugin implementieren
-		\item Implementierung interaktiver Liste für Kartenwidgets
-		\item Darstellen von Orten aus der Liste in der Karte
-		\end{itemize}
-	\end{block}	
-
-}
-
-%%##################################################
-
-\subsection*{Sprint 3}
-\frame{
-\frametitle{Sprint 3 - Kommunikation}
-	\begin{block}{Extraktion aus Product Backlog}
-		\begin{itemize}
-		\item Schnittstelle zu TH-Email / Kalender implementieren
-		\item Reminder in Statusleiste implementieren
-		\item Popup für akute Termine implementieren 
-		\item Implementierung des Checklistenwidgets
-		\item Design des Reminders erstellen
-		\item Design des Popups erstellen
-		\item Design des Checklistenwidgets erstellen
-		\end{itemize}
-	\end{block}	
-
-}
-
-%%##################################################
-
-\subsection*{Sprint 4}
-\frame{
-\frametitle{Sprint 4 - Redesign}
-	\begin{block}{Entscheidung des PO - Name der Hochschule wurde geändert}
-	\end{block}
-	\begin{block}{Extraktion aus Product Backlog}
-		\begin{itemize}
-		\item Änderung der Logos in allen Widgets
-		\item Änderung der TH-Schriftzüge in allen Widgets
-		\item Redesign des Startbildschirms
-		\end{itemize}
-	\end{block}	
-	
-}
-
-%%##################################################
 
 \section{Fazit}
 \frame{
@@ -250,7 +209,13 @@
 %##################################################
 \frame{%\section*{References}
 \frametitle{References}
-
+	\begin{block}{Verwendete Software}
+			\begin{itemize}
+				\item Eclipse Kepler 
+				\item Visual Paradigm for UML Professional Edition
+			\end{itemize}
+	\end{block} 
+		
 	References
 
 }
