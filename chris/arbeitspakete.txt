@@ -1,4 +1,10 @@
 Arbeitspaket 1 --> Mittwoch 3.7
+-- Softwarestruktur der Benutzeroberfläche 		[0.5h]
+-- Softwarstruktur der einzelnen Unterpunkte    
+	- Hauptbildschirm [0.25h]
+	- 
+
+
 - Struktur Backend
 	- CMS (hybrid)
 	- Benutzerrollen
@@ -8,3 +14,5 @@ Arbeitspaket 1 --> Mittwoch 3.7
 - Struktur Frontend
 - Schnittstellen definieren
 - Präsentation vorlage 			--> check
+
+
