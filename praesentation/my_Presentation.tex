@@ -2,7 +2,7 @@
 
 \title{Agiles Softwaremanagement}
 \author{Koch, Merkl, Pfitzner}
-\institute{Mobile Robotic Laboratory}
+%\institute{Mobile Robotic Laboratory}
 \date{\today}
 
 \begin{document}
@@ -21,7 +21,7 @@
 	\end{minipage}
 		\begin{minipage}[b]{0.47\linewidth}
 	\begin{figure}
-		\includegraphics[width=\textwidth]{auton.png}
+		%\includegraphics[width=\textwidth]{auton.png}
 	\end{figure}
 %	\begin{figure}
 %		\includegraphics[width=\textwidth]{vb_comic.png}
@@ -67,141 +67,37 @@
 	\end{flushright}
 }
 
-%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%%##################################################
 \section{Sprint 1}
-\frame{
-\frametitle{GUI: Programmaufbau}
-	\begin{block}{Anforderungen}
-		\begin{itemize}
-			\item Basisklasse GUI enthält mögliche Designelemente für einzelne Abschnitte der APP
-			\item Seiten erben von Basisklasse und implementieren eigene Funktionalität
-		\end{itemize}
-	\end{block}
-}
-
-\frame{
-\frametitle{Gui: Klassendiagramm}
-	\begin{center}
-			\includegraphics[width=0.9\textwidth]{../grafiken/GUI_Class.pdf}
-	\end{center}
-}
-
-
-\frame{
-\frametitle{Menüwechsel}
-	\begin{block}{Zustandsmaschine}
-		\begin{itemize}
-			\item Menüpunkte werden als Zustand gesehen
-			\item zusätzliche Zustände für Start und Beenden der Application
-			\item Zustände können wiederum Unter-Zustände besitzen
-		\end{itemize}
-		\begin{center}
-			\includegraphics[width=0.8\textwidth]{../grafiken/MenueStates.pdf}
-		\end{center}
-	\end{block}
-}
-
-
-
-
-%%##################################################
-\section{Sprint 2}
-\subsection*{Datenhaltung: Backend}
-\frame{
-\frametitle{Hochschulkommunikation}
-	\begin{block}{Kommunikation mit Hochschul-Content}
-		\begin{itemize}
-			\item Hochschule interne Daten über Content System
-			\item Content-Zugriff bei Internetzugriff des Mobilfunktgeräts
-		\end{itemize}
-		\includegraphics[width=0.9\textwidth]{../grafiken/OhmCollab.pdf}
-	\end{block}
-}
-
-\frame{
-\frametitle{Datenhaltung}
-	\begin{block} {Content Management System (CMS)}
-	\begin{itemize}
-		\item CMS zum Verwalten von Inhalten
-		\item Verschiedene Benutzerrollen:	
-			\begin{itemize}
-				\item Administrator: Bearbeitung von Design und Inhalt
-				\item Redakteuer: Bearbeitung von Inhalt
-			\end{itemize}
-		\item $\rightarrow$ Hochschule benutzt bereits CMS Systeme für Inhalte der Webseite. \\\textbf{Vorteil: zusätzliche Schulung nicht notwendig} 
-	\end{itemize}
-	\end{block}
-	\begin{block} {Datenbank}
-	\begin{itemize}
-		\item mySQL-Datenbank	
-		\item zyklisches Aktualisieren auf Endanwendung
-	\end{itemize}
-	\end{block}
-}
-
-\frame{
-\frametitle{Zusammenspiel}
-	\begin{block}{Diagramm}
-		\includegraphics[width=1.0\textwidth]{../grafiken/DB.pdf}
-	\end{block}
-}
-
-\subsection*{Navigation}
-\frame{
-\frametitle{Navigation: Struktur}
-	\includegraphics[width=0.9\textwidth]{../grafiken/NavigationW_Class.pdf}
-}
-
-\frame{
-\frametitle{Interessantes}
-	\begin{block}{Struktur}
-	\begin{itemize}
-		\item Basisklasse für interessante Objekte 
-		\item Addressinformation für schnelles finden von Orten in der Umgebung
-		\item UTM-Koordinaten zur Übergabe an Routenplanner
-	\end{itemize}
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{../grafiken/PointOfInteresst.pdf}
-	\end{center}
-	\end{block}
-}
-
-%%##################################################
-
-
-\section{Sprint3}
-
-\section{Sprint4}
-
-%%##################################################
-\section{Ablauf}
-\subsection*{Sprint 1}
 \input{sprint1phil.tex}
+\input{sprint1chri.tex}
 
 
 %%##################################################
 
-\subsection*{Sprint 2}
+\section{Sprint 2}
 \input{sprint2phil.tex}
+\input{sprint2chri.tex}
 
 %%##################################################
 
-\subsection*{Sprint 3}
+\section{Sprint 3}
 \input{sprint3phil.tex}
+\input{sprint3chri.tex}
 
 %%##################################################
 
-\subsection*{Sprint 4}
+\section{Sprint 4}
 \input{sprint4phil.tex}
 
 %%################################################## 
 
-\subsection*{Sprint 5}
+\section{Sprint 5}
 \input{sprint5phil.tex}
 
 %%################################################## 
 
-\subsection*{Sprint 6}
+\section{Sprint 6}
 \input{sprint6phil.tex}
 
 %%################################################## 
@@ -234,9 +130,6 @@
 	\url{Email40432@ohm-hochschule.de}
 	}
 	\end{block}	
-	\begin{figure}
-		\includegraphics[width=0.5\textwidth]{auton.png}
-	\end{figure}
 }
 
 %##################################################

@@ -19,12 +19,12 @@
 \setbeamercovered{transparent}
 \mode<presentation>
 { \usetheme[
-	width=1.3cm,
+%	width=1.3cm,
   	left, % sidebar links
  % 	right, % sidebar rechts
   	hideallsubsections, % nur sections werden angezeigt
   %	hideothersubsections, % nur subsections der aktuellen section werden angezeigt
- ]{PaloAlto}
+ ]{Berlin}
  
 
  
@@ -40,9 +40,9 @@
 		\insertcaption
 	}
 }
-\logo{\includegraphics[width=1.3cm]{auton_blank.png}}
+%\logo{\includegraphics[width=1.3cm]{auton_blank.png}}
 \makeatletter
-\setlength{\beamer@headheight}{1.3cm}
+%\setlength{\beamer@headheight}{1.3cm}
 \makeatother 
 
 \endinput
