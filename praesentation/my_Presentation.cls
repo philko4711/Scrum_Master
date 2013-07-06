@@ -1,7 +1,7 @@
 \LoadClassWithOptions{beamer}
 
 \RequirePackage[ngerman]{babel}
-\RequirePackage[latin1]{inputenc}
+\RequirePackage[utf8]{inputenc}
 \RequirePackage{beamerthemesplit}
 \RequirePackage{graphics,epsfig, subfigure}
 \RequirePackage{url}
