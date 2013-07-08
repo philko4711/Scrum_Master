@@ -1,6 +1,6 @@
 \documentclass{my_Presentation}
 
-\title{Agiles Softwaremanagement}
+\title{Agile Methoden \\ im Software- und System Engineering}
 \author{Koch, Merkl, Pfitzner}
 %\institute{Mobile Robotic Laboratory}
 \date{\today}
@@ -12,12 +12,12 @@
 \frame{\titlepage \vspace{-0.5cm}
 \begin{center}
 	\includegraphics[scale=0.5]{Ohm.pdf}\\
-	Technische Hochschule Nurnberg
+	Technische Hochschule Nürnberg
 \end{center}
 }
 %%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \frame{
-	\frametitle{Content}
+	\frametitle{Inhalt}
 	\begin{minipage}[b]{0.47\linewidth}
 		\tableofcontents[pausesection]
 	\end{minipage}
@@ -35,27 +35,19 @@
 	\end{itemize}		
 	\vfill
 	\includegraphics[width=0.9\textwidth]{../grafiken/Team.pdf}
- 
 }
 %%##################################################
 %introuserstories
 \input{introUserStoriesphil.tex}
 
-%%##################################################
-\frame{
-\frametitle{Zeitplan}
-	Gantt Diagramm
-}
-
-\section{Das Produkt}
 \frame{
 \frametitle{Das Produkt}
 	\begin{block}{Eine grobe Idee}
 		\begin{itemize}
-			\item Handy-App
-			\item Plattform für internationale Studenten
-			\item Wichtige Informationen auf einen Blick
-			\item Kommunikation untereinander
+			\item \textbf{Handy-App} für Smartphones
+			\item Plattform für \textbf{internationale Studierende}
+			\item wichtige Informationen \textbf{auf einen Blick}
+			\item \textbf{schneller Einstieg} ins Studium verbessern
 		\end{itemize}
 	\end{block}
 	\begin{flushright}
@@ -65,22 +57,27 @@
 
 %%##################################################
 \section{Sprint 1}
+\subsection*{Planung}
 \input{sprint1phil.tex}
+\subsection*{Struktur}
 \input{sprint1chri.tex}
+\subsection*{GUI}
 \input{sprint1knueppl.tex}
 
 %%##################################################
 
 \section{Sprint 2}
+\subsection*{Planung}
 \input{sprint2phil.tex}
+\subsection*{Struktur}
 \input{sprint2chri.tex}
+\subsection*{GUI}
 \input{sprint2knueppl.tex}
 
 %%##################################################
 
 \section{Sprint 3}
 \input{sprint3phil.tex}
-\input{sprint3chri.tex}
 \input{sprint3dailyscrum.tex}
 \input{sprint3knueppl.tex}
 
@@ -88,6 +85,7 @@
 
 \section{Sprint 4}
 \input{sprint4phil.tex}
+\input{sprint3chri.tex}
 
 %%################################################## 
 
@@ -108,29 +106,16 @@
 \frametitle{Lessons Learned}
 	\begin{block}{Was lief gut?}
 		\begin{itemize}
-			\item erster Punkt
+			\item Kommunikation innerhalb des Teams
+			\item Zusammenarbeit auf Online Repository
 		\end{itemize}
 	\end{block}
-	\begin{block}{Was lief schlecht?}
+	\begin{block}{Was hätte besser laufen können?}
 		\begin{itemize}
-			\item erster Punkt
+			\item Kommunikation zu Product Owner
+			\item Kurze Sprints (ein Tag) führen schnell zu Zeitnot
 		\end{itemize}
 	\end{block}
-}
-
-%%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\frame{
-\frametitle{Thank you for your attention}
-	\begin{block}{Contact}
-	\flushright{
-	\tiny Title.\\ \normalsize
-	\textbf{Name} \\
-	Laboratory of mobile Robotics\\
-	Kesslerplatz 12 -- KA 640\\
-	90489 Nuremberg \\
-	\url{Email40432@ohm-hochschule.de}
-	}
-	\end{block}	
 }
 
 %##################################################
@@ -139,11 +124,12 @@
 	\begin{block}{Verwendete Software}
 			\begin{itemize}
 				\item Eclipse Kepler 
+				\item Emacs 23
+				\item Dia
+				\item TexMaker
 				\item Visual Paradigm for UML Professional Edition
 			\end{itemize}
 	\end{block} 
 		
-	References
-
 }
 \end{document}

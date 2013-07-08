@@ -23,7 +23,7 @@
   	left, % sidebar links
  % 	right, % sidebar rechts
   	hideallsubsections, % nur sections werden angezeigt
-  %	hideothersubsections, % nur subsections der aktuellen section werden angezeigt
+  	hideothersubsections, % nur subsections der aktuellen section werden angezeigt
  ]{Berlin}
  
 
