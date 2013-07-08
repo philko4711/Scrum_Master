@@ -24,6 +24,7 @@
  % 	right, % sidebar rechts
   	hideallsubsections, % nur sections werden angezeigt
   	hideothersubsections, % nur subsections der aktuellen section werden angezeigt
+  	compress
  ]{Berlin}
  
 
@@ -32,6 +33,7 @@
   \usefonttheme[onlymath]{serif}
   \setbeamercovered{transparent}
   \setbeamertemplate{blocks}[default]
+  \setbeamerfont{frametitle}{size=\small}
   %\setbeamercolor{block title example}{bg=blue} 
   %\setbeamercolor{block body example}{bg=blue} 
 	\usecaptiontemplate{
